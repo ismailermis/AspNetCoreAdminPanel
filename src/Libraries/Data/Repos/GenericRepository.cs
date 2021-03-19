@@ -1,10 +1,11 @@
-﻿using Data.Specifications;
+﻿using Data.Contexts;
+using Data.Specifications;
 using Microsoft.EntityFrameworkCore;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Data.Repos
@@ -166,5 +167,7 @@ namespace Data.Repos
 
             return query;
         }
+
+
     }
 }

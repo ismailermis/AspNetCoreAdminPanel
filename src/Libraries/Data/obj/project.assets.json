@@ -160,6 +160,16 @@
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -519,11 +529,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.EntityFrameworkCore >= 5.0.3"
+      "Microsoft.EntityFrameworkCore >= 5.0.3",
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -558,7 +574,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\localProjects\\AspNetCoreAdminPanel\\src\\Libraries\\Models\\Models.csproj": {
+              "projectPath": "C:\\Projects\\localProjects\\AspNetCoreAdminPanel\\src\\Libraries\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
