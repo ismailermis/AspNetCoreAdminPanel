@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p+MeO94oe4wHPW/iwwU33vHgzBamU6VIUS8gL5ijhatKG2cBUaNPr7u9ocZMAnPs0wgDV59Q177w4tBHSKkwGg==",
+  "dgSpecHash": "4OXm7+I9Fnhm44LtWYdjgMY7UYal6X+TWErxOdGjmIjO6TYTud3vnQpQEAOxBhY0M01WozcVHH0T4WGBOJLO3Q==",
   "success": true,
   "projectFilePath": "C:\\Projects\\localProjects\\AspNetCoreAdminPanel\\src\\Libraries\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ismail.ermis\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
