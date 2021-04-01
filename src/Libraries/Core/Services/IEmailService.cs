@@ -1,4 +1,4 @@
-﻿using Models.DTOs;
+﻿using Models.DTOs.Email;
 using System.Threading.Tasks;
 
 namespace Core.Services
